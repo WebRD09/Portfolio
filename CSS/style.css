@@ -145,21 +145,23 @@ h3 span {
 
 .knowledge {
     font-family: 'Montserrat Alternates', sans-serif;
-    margin: 100px 10vh;
-    box-shadow: 5px 5px 10px gray, -5px -5px 10px gray;
+    margin: 100px 0;
     padding: 25px;
     border-radius: 20px;
+    width: 100%;
 }
 
 .knowledge .boxes {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 .knowledge .boxes .box {
     display: flex;
     flex-direction: column;
-    margin: auto;
+    margin: 0 50px;
     margin-bottom: 50px;
     padding: 10px;
 }
@@ -172,8 +174,7 @@ h3 span {
 
 .skill {
     font-family: 'Montserrat Alternates', sans-serif;
-    margin: 50px 10vh;
-    background-color: rgb(59, 59, 59);
+    margin: 100px 0;
     padding: 25px;
     border-radius: 20px;
 }
@@ -231,9 +232,4 @@ h3 span {
 .skill-content .box:hover img {
     background-color: orange;
     transition: 0.5s ease;
-}
-
-.skill h1,
-.skill h3 {
-    color: white;
 }

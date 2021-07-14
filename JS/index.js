@@ -1,7 +1,7 @@
 $(document).ready(function() {
     // This will run when user scroll the screen
     $(window).scroll(function() {
-        if (this.scrollY > 50)
+        if (this.scrollY > 20)
             $('.navbar').addClass("scroll");
         else
             $('.navbar').removeClass("scroll");
