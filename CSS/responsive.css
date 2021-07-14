@@ -24,6 +24,7 @@
     }
     .active {
         left: 0;
+        transition: all 0.5s ease;
     }
 }
 
@@ -46,7 +47,7 @@
         font-weight: bold;
     }
     .navbar .logo a {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 }
 
@@ -69,7 +70,7 @@
         font-weight: bold;
     }
     .navbar .logo a {
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .toggle .line {
         width: 20px;
@@ -110,7 +111,7 @@
         margin-bottom: 3px;
     }
     .navbar .logo a {
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 }
 
