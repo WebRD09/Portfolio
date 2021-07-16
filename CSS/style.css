@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -63,6 +64,7 @@ html {
 
 #home {
     display: flex;
+    flex-direction: column;
     background: black;
     height: 100vh;
     width: 100vw;
@@ -71,6 +73,21 @@ html {
     color: white;
     font-family: 'Ubuntu', sans-serif;
     padding: 0 10px;
+}
+
+.myinfo {
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    height: 5vh;
+}
+
+.myinfo a {
+    margin: 15px;
+}
+
+.myinfo a:hover img {
+    width: 2vw;
 }
 
 .text1 {
@@ -173,6 +190,7 @@ h3 span {
     height: 20px;
     border-radius: 10px;
     background-color: orange;
+    transition: 0.5s ease
 }
 
 .knowledge .item .html::before {
@@ -199,7 +217,6 @@ h3 span {
     font-family: 'Montserrat Alternates', sans-serif;
     padding: 25px;
     border-radius: 20px;
-    cursor: pointer;
 }
 
 .skill-content {
@@ -220,6 +237,7 @@ h3 span {
     border-radius: 10px;
     padding: 15px;
     margin-bottom: 25px;
+    cursor: pointer;
 }
 
 .skill-content .box .text {
@@ -255,4 +273,15 @@ h3 span {
 .skill-content .box:hover img {
     background-color: orange;
     transition: 0.5s ease;
+}
+
+footer {
+    background-color: black;
+    color: orange;
+    font-size: 1rem;
+    padding: 10px;
+    margin: 20px 0;
+    font-family: 'Encode Sans SC', sans-serif;
+    font-weight: bold;
+    text-align: center;
 }

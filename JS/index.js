@@ -12,4 +12,11 @@ $(document).ready(function() {
         $('ul').toggleClass("active");
         $(".toggle").toggleClass("close");
     })
+
+    // Typing Animation
+    var typed = new Typed(".typing", {
+        strings: ["WebDeveloper", "Frontend Developer", "Web Designer", "Cricket Lover", "Learner"],
+        typeSpeed: 75,
+        loop: true
+    })
 });
