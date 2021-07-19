@@ -5,12 +5,25 @@ $(document).ready(function() {
             $('.navbar').addClass("scroll");
         else
             $('.navbar').removeClass("scroll");
+        if (this.scrollY > 1100) {
+            $(".knowledge .c1").addClass("html");
+            $(".knowledge .c2").addClass("java");
+            $(".knowledge .c3").addClass("js");
+            $(".knowledge .c4").addClass("ds");
+            $(".knowledge .c5").addClass("css");
+        }
+        if (this.scrollY > 2300) {
+            $(".proj-content .box").slideDown(2000);
+        }
     })
+
 
     // Toggle Button Working
     $(".toggle").click(function() {
         $('ul').toggleClass("active");
-        $(".toggle").toggleClass("close");
+        $(".line1").toggleClass("l1");
+        $(".line2").toggleClass("l2");
+        $(".line3").toggleClass("l3");
     })
 
     // Typing Animation
