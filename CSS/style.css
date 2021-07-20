@@ -69,6 +69,7 @@ html {
     height: 4px;
     background-color: white;
     margin-bottom: 5px;
+    transition:.3s ease;
 }
 
 .toggle {
