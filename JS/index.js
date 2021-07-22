@@ -32,4 +32,16 @@ $(document).ready(function() {
         typeSpeed: 75,
         loop: true
     })
+    
+    $("i").click(function() {
+        $(this).css("color", "orange");
+    });
+
+    $(".rateme .btn").click(function() {
+        $(".rate-bg").css("display", "none");
+    });
+
+    setTimeout(() => {
+        $(".rate-bg").css("display", "block");
+    }, 10000)
 });
