@@ -82,6 +82,14 @@
     .navbar .logo a {
         font-size: 1.5rem;
     }
+    .rateme {
+        width: 250px;
+        padding: 20px 0;
+    }
+    .rateme .text {
+        margin-bottom: 10px;
+        font-size: 1.5rem;
+    }
 }
 
 @media screen and (max-width:300px) {
